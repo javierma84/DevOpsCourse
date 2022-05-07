@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprendiendo jQuery</title>
+    <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script> -->
+    <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="js/01-selectores.js"></script>
+    <style>
+        .zebra2 {
+            border: 5px dashed black;
+        }
+
+        .grande {
+            font-size: 30px;
+        }
+
+        .margen-superior {
+            display: block;
+            margin-top: 45px;
+        }
+        .resaltado{
+            border-bottom: 2px solid green;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>jQuery</h1>
+    <ul>
+        <li><a href="https://www.google.com" title="Google">Ir a Google</a></li>
+        <li><a href="https://www.facebook.com" title="Facebook">Ir a Facebook</a></li>
+    </ul>
+    <p>Ejercicios de jQuery</p>
+    <p id="rojo" class="sinBorde">Parrafo rojo</p>
+    <p id="amarillo" class="zebra">Parrafo amarillo</p>
+    <p id="verde">Parrafo verde</p>
+    <p class="zebra">Parrafo blanco</p>
+    <div id="caja">
+        <p>Hola soy una caja</p>
+        <ul>
+            <li>Elemento 1</li>
+            <li class="resaltado">Elemento 2</li>
+        </ul>
+        <span class="resaltado">Soy un span</span>
+    </div>
+</body>
+
+</html>
